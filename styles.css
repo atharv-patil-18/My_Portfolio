@@ -1,0 +1,159 @@
+/* Global Styles */
+body {
+    display: flex;               
+    flex-direction: column;      
+    min-height: 100vh;          
+    margin: 0;                  
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+p {
+    margin: 15px 0;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f0a500;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;           
+}
+
+/* Landing Page */
+.landing {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+/* About Section */
+.about {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.about-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+/* Programming Languages Section */
+.languages {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.languages ul {
+    list-style: none;
+    padding: 0;
+}
+
+.languages li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.languages img {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+}
+
+/* About Me Text */
+.about-text {
+    flex: 2;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-links li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-links li a:hover {
+    color: #f0a500;
+}
+
+/* Projects Section */
+.projects {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.projects ul {
+    list-style: none;
+    padding: 0;
+}
+
+.projects li {
+    margin: 15px 0;
+}
+
+/* Learn More Button */
+.learn-more {
+    text-align: center;          
+    margin: 20px 0;              
+}
+
+.btn {
+    display: inline-block;        
+    background-color: #f0a500;   
+    color: #fff;                 
+    padding: 10px 20px;          
+    text-decoration: none;        
+    border-radius: 5px;          
+    transition: background-color 0.3s; 
+}
+
+.btn:hover {
+    background-color: #d18f00;   
+}
